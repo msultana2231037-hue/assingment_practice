@@ -13,6 +13,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 14px;
+    margin-left: 14px;
 
 }
 a{
@@ -24,5 +26,43 @@ a{
     display: flex;
     gap:10px;
     justify-content: space-between;
+    color: white;
+    background-color: #4b4bd0;
+    padding: 6px 32px;
+    cursor:pointer;
+    font-size: 12px;
+    font-weight: 10;
+    
+    border-radius: 8px;
+    border: none;
 
+ 
+}
+.banner{
+
+    background-image: url("/B14-A01-DevConf-2026/assets/banner.jpg");
+    background-size: cover;
+    height: 500px;
+    weight:400px;
+    background-position: center;
+    
+    
+
+}
+.bannerbutton{
+    color: white;
+    background-color: #4949d8;
+    padding: 6px 32px;
+    cursor:pointer;
+    font-size: 12px;
+    font-weight: 10;
+    border-radius: 5px;
+    margin-top: 170px;
+    border: none;
+
+}
+.control{
+    
+    text-align: center;
+    padding-top: 150px ;
 }
