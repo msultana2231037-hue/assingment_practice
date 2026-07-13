@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-ul{
+.navlist{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -32,9 +32,9 @@ a{
     cursor:pointer;
     font-size: 12px;
     font-weight: 10;
-    
     border-radius: 8px;
     border: none;
+    
 
  
 }
@@ -65,4 +65,139 @@ a{
     
     text-align: center;
     padding-top: 150px ;
+}
+.speakers{
+    text-align: center;
+    padding: 50px;
+}
+
+.Speakercardparent{
+    display :grid;
+    grid-template-columns:repeat(2,450px);
+    gap: 40px;
+    justify-content: center;
+
+    
+    
+
+
+}
+.Speakercard{
+    width: 450px;
+    border:2px solid rgb(221, 210, 210);
+    border-radius: 10px;
+    text-align: left;
+
+}
+.Speakercard img {
+    width: 100%;
+    height: 280px;
+
+
+
+}     
+.text_{
+    color: #0404f3;
+}          
+
+.secure{
+    text-align: center;
+    padding: 50px;
+}
+.pricecardparent{
+    display: flex;
+     justify-content: center;
+     gap: 20px;
+}
+.pricecard{
+    border:1px solid rgb(130, 130, 130);
+    padding :30px;
+     width: 230px; 
+      /* height: 350px; */
+      border-radius: 10px;
+       text-align: left;
+   
+}
+.pricecardpro{
+    background-color: #0c0c44;
+    color: azure;
+     border:1px solid rgb(138, 132, 132);
+    padding :40px;
+     width: 260px;
+      /* height: 330px; */
+      border-radius: 10px;
+       text-align: left;
+       transition:0.5s;
+   
+}
+.pricecardpro:hover{
+    background-color: rgb(1, 13, 26);
+    cursor: pointer;
+    transform: translateY(-16px);
+}
+
+.line ,
+.line2
+.line3{
+    text-align: left;
+    /* padding: 20px; */
+     margin: 10px ; 
+    
+  
+}
+.line li ,
+.line2 li,
+.line3 li{
+
+    margin-top: 10px ;
+}
+.line li::marker,
+.line2 li::marker,
+.line3 li::marker{
+    color: #4949d8;
+    
+}
+
+hr{
+border: 1px solid rgb(118, 112, 112);
+margin:20px 0;
+}
+.button1{
+    
+     padding: 12px ;
+     width: 100%;
+    font-size: 15px;
+    font-weight: 10;
+    border-radius: 8px;
+    border-color: #6363dc;
+    color:#3333ae;
+    background-color: rgb(255, 251, 251);
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.buttonpro{
+    padding: 12px ;
+     width: 100%;
+    font-size: 16px;
+    font-weight: 10;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px ;
+    background-color: #3030cd;
+   color: rgb(232, 237, 242);
+   cursor: pointer;
+   
+}
+.contactbutton{
+      width:100% ;
+      padding: 12px ;
+      font-size: 16px;
+      font-weight: 10;
+      border-radius: 8px;
+      margin-top: 50px ;
+      cursor: pointer;
+
+    
 }
